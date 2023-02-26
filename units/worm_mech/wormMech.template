@@ -1,0 +1,26 @@
+[core]
+armour:0
+logIfCreditResourceUsed:true
+[hiddenAction_killedAnyUnit]
+autoTriggerOnEvent:killedAnyUnit
+addResources:expWormKill=1
+[global_resource_expWormKill]
+displayName:Mech Worm Kills
+displayName_zh:机械蠕虫击杀数量
+displayColor:#00ff00
+hidden:true
+[global_resource_Testsegment]
+displayName:Test Segment
+displayName_zh:机械蠕虫体节测试
+displayColor:#00ff00
+hidden:true
+[global_resource_TestsegmentSegments]
+displayName:Mech Worm Segments
+displayName_zh:机械蠕虫体节数量
+displayColor:#00ff00
+hidden:false
+[global_resource_TestsegmentHead]
+displayName:Mech Worm Heads
+displayName_zh:机械蠕虫头部数量
+displayColor:#00ff00
+hidden:false

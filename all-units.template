@@ -1,0 +1,41 @@
+[core]
+strictLevel:1
+ignoreInUnitCapCalculation:true
+autoTriggerCooldownTime_allowDangerousHighCPU:true
+[global_resource_experimental]
+displayName:Experimental
+displayName_zh:实验科技点数
+displayColor:#ffa3f0
+displayRoundedDown:true
+[global_resource_MSite]
+displayName:Military Satellite
+displayName_zh:军用卫星资源
+displayNameShort:MSite
+displayNameShort_zh:军用卫星资源
+displayColor:#37ba00
+[global_resource_ESite]
+displayName:Energy Satellite
+displayName_zh:能量卫星资源
+displayNameShort:ESite
+displayNameShort_zh:能量卫星资源
+displayColor:#37ba00
+[resource_EMP]
+displayName:EMP
+displayName_zh:电磁脉冲
+hidden:true
+[hiddenAction_EMP_activate]
+autoTrigger:if self.resource(greaterThan=0,type='EMP')
+setUnitStats:moveSpeed=0,maxTurnSpeed=0,maxAttackRange=0,nanoRange=0,selfRegenRate=0
+clearAllWaypoints:true
+[hiddenAction_EMP_limit]
+autoTrigger:if self.resource(greaterThan=5,type='EMP')
+resourceAmount:EMP
+resourceAmount_setValue:5
+[hiddenAction_EMP_decrease]
+autoTrigger:if self.resource(greaterThan=1,type='EMP')
+addResources:EMP=-1
+[hiddenAction_EMP_deactivate]
+autoTrigger:if self.resource(greaterThan=0,lessThan=2,type='EMP')
+resourceAmount:EMP
+resourceAmount_setValue:0
+resetUnitStats:true
