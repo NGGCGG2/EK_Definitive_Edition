@@ -1,6 +1,6 @@
 [mod]
-title:EK_Definitive_Edition_2023h16
-description:"With the power of thunder, I smashed the hammer to end the judgment"\nNew Year 2023 Version
+title:EK_Definitive_Edition_2023h17
+description:"With the power of thunder, I smashed the hammer to end the judgment"
 thumbnail:mod-icon.png
 tags:units,turrets,infantry,experimentals
 minVersion:1.15
