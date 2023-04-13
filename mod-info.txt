@@ -1,5 +1,5 @@
 [mod]
-title:EK_Definitive_Edition_2023h23
+title:EK_Definitive_Edition_2023h24
 description:"With the power of thunder, I smashed the hammer to end the judgment"
 thumbnail:mod-icon.png
 tags:units,turrets,infantry,experimentals
