@@ -1,5 +1,5 @@
 [core]
-armour:0
+armour:20
 logIfCreditResourceUsed:true
 [hiddenAction_killedAnyUnit]
 autoTriggerOnEvent:killedAnyUnit
